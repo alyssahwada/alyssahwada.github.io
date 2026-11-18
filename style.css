@@ -70,13 +70,16 @@ body {
     text-align: center;
     color: white;
 
-    background:
-        linear-gradient(rgba(40, 10, 40, 0.7),
-        rgba(40, 10, 40, 0.7)),
-        url("https://lightroom.adobe.com/shares/10f1637b5ece40eeb25f87f135b3da7d/albums/f35201cb5ba64da9bd81c91c07c0afc1/assets/c10a8af8b8744c79bef83c5ed8ab368b");
+   background:
+    linear-gradient(
+        rgba(40, 10, 40, 0.7),
+        rgba(40, 10, 40, 0.7)
+    ),
+    url("https://lightroom.adobe.com/shares/10f1637b5ece40eeb25f87f135b3da7d/albums/f35201cb5ba64da9bd81c91c07c0afc1/assets/c10a8af8b8744c79bef83c5ed8ab368b");
 
-    background-size: cover;
-    background-position: center;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 
 .hero-content {
